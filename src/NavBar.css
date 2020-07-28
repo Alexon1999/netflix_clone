@@ -1,0 +1,32 @@
+.nav {
+  /* display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7vh;
+  z-index: 1; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  z-index: 1;
+  transition: background 0.5s ease-in;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.nav__avatar {
+  margin-right: 1rem;
+}
